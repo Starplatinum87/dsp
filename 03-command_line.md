@@ -54,7 +54,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* `ls -F` - Display all directories with a forward slash at the end.
+* `ls -1` - Displays each entry on a line.
+* `ls -R` - Show all directories and subdirectories.
+* `ls -u` - Sort by last access time.
+* `ls -S` - Sort by file size.
 
 ---
 
