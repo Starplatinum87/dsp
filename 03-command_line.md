@@ -38,13 +38,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls` - Lists out the contents of the current working directory.  
-`ls -a`  - Lists out the contents of the current working directory, including hidden files.
-`ls -l`  - Lists out a table of the files in the current working directory with various attributes of that file (hard links, commands that can be run, creator, group, etc.)
-`ls -lh`  - Lists out all contents in the long form above with sizes in 'human-readable' format: 87621 -> 86K
-`ls -lah`  - Lists out all files, including hidden files,  in long form with human readable sizes.
-`ls -t`  - List out directory contents, sorted by modification time. 
-`ls -Glp`  - List out directory contents in long form, with different colors for files and folders, and with indicators appended to the end of the different file types. 
+* `ls` - Lists out the contents of the current working directory.  
+* `ls -a`  - Lists out the contents of the current working directory, including hidden files.
+* `ls -l`  - Lists out a table of the files in the current working directory with various attributes of that file (hard links, commands that can be run, creator, group, etc.)
+* `ls -lh`  - Lists out all contents in the long form above with sizes in 'human-readable' format: 87621 -> 86K
+* `ls -lah`  - Lists out all files, including hidden files,  in long form with human readable sizes.
+* `ls -t`  - List out directory contents, sorted by modification time. 
+* `ls -Glp`  - List out directory contents in long form, with different colors for files and folders, and with indicators appended to the end of the different file types. 
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
