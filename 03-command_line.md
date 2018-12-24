@@ -64,9 +64,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 ### Q4.  Xargs   
 
-What does `xargs` do? Give an example of how to use it.
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* In the simplest sense, `xargs` applies a command to each item in a list of items that is supplied/piped to it. Typically these lists are supplied by commands like `ls` and `find`.
+* EXAMPLE
+  * `find *txt | xargs grep "Oratorio"`
+  * Finds all of the files with 'txt' in the file name that have the text "Oratorio".
 
  
 
