@@ -86,14 +86,31 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+We can treat this as a classic Bayes Theorem problem:
+$P(A|B) = \frac{P(B|A)P(A)}{P(B)} \rightarrow P(Identical|Twin)=\frac{P(Twin|Identical)P(Identical)}{P(Twin)}$
+
+But it actually ends up being unnecessary since:
+$P(Twin|Identical)P(Identical)}{P(Twin)}=P(Identical)$
+
+Because the probability of being a twin if you're an identical twin is 1:
+
+$P(Twin) = P(Identical) + P(Fraternal)= \frac{1}{300}+\frac{1}{125}=0.0011333$
+$P(Twin|Identical) = \frac{P(Identical)}{P(Twin)} = \frac{0.00333}{0.01333}=0.29412
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Bayesian and Frequentist approaches vary most fundamentally in how they interpret probability.
+
+Frequentist - Probability is related to the frequency of repeated events, so to determine the probability of pulling a particular card from a deck, you would perform many experiments pulling cards from the deck and establish the probability of particular cards based on those results. This is a more purely empirical approach when compared to Bayesians.
+
+Bayesian - Proability is related to certainty and uncertainty of events. So for the card drawing example they would take information they know about the deck and other relevant surrounding data to give a probability to a particular outcome, rather than relying only on experimental data. This can be useful in situations where experimental data is very difficult or impossible to obtain.
+
+Another important way to interpret the distinction is in regards to data and parameters. For Frequentists parameters remain fixed and data modeling results vary around those parameters and for Bayesians the observed data remains fixed and parameters vary within intervals within that data.
+
+So if we take for example the idea of 95% confidence in the results of given experiments, the Bayesian would say that there is a 95% chance that a given parameter (ex. mean) is within a fixed "credible region" and a Frequentist would interpret in terms of confidence intervals and say that if the experiement is repeated multiple times 95% of the confidence intervals of the resulting distributions will contain the true (fixed) parameter (mean). 
 
 ---
 
